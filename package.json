@@ -1,0 +1,26 @@
+{
+  "name": "sample-auto-deploy",
+  "version": "1.0.0",
+  "description": "Here I have designed back-end for TODO and you can Make use of our banck-end and put your business logic. Here is [link](https://www.haveli.com)",
+  "main": "index.js",
+  "scripts": {
+    "preinstall":"npm install -g bower",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "postinstall": "bower install --allow-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hamid-bridgelabz@github.com/hamid-bridgelabz/Sample.git"
+  },
+  "author": "Hamid Raza Noori <hamid.noori@bridgelabz.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamid-bridgelabz/Sample/issues"
+  },
+  "homepage": "https://github.com/hamid-bridgelabz/Sample#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5"
+  }
+}
