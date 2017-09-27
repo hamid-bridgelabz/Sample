@@ -1,0 +1,4 @@
+#!/bin/sh
+ cd /var/lib/jenkins/workspace/node-trial
+ pm2 restart all
+ exit
