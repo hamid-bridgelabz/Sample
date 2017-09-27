@@ -4,10 +4,9 @@
   "description": "Here I have designed back-end for TODO and you can Make use of our banck-end and put your business logic. Here is [link](https://www.haveli.com)",
   "main": "index.js",
   "scripts": {
-    "preinstall":"npm install -g bower",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js",
-    "postinstall": "bower install --allow-root"
+    "start": "node index.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.15.5"
+  },
+  "devDependencies": {
+    "bower": "^1.8.2"
   }
 }
