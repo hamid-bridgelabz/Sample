@@ -6,7 +6,12 @@ var express = require("express"),
 app.use(bodyParser.json());
 
 app.use(express.static("./public"));
-
+app.get("/hello",function(req,res){
+var result = {};
+result.status = true;
+result.message = "hello successfully retrieve details";
+res.send(result);
+});
 app.use(function(req,res){
 var result = {};
 result.status = true;
