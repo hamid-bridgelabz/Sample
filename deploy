@@ -1,4 +1,5 @@
 #!/bin/sh
+ sudo su ubuntu
  cd /var/lib/jenkins/workspace/node-trial
  pm2 restart all
  exit
